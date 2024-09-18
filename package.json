@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "./scripts/serve.sh"
+    "start": "./scripts/serve.sh",
+    "build": "./scripts/build.sh"
   },
   "dependencies": {
     "esbuild": "^0.23.1",
