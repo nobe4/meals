@@ -1,0 +1,97 @@
+{
+  "beans": {
+    "best served": "cooked",
+    "quantity": 3,
+    "serving": "1/2 cup, 1/4 cup blended",
+    "items": [
+      "french beans",
+      "black beans",
+      "kidney beans",
+      "soy/tofu",
+      "chickpeas",
+      "lentils",
+      "tempeh"
+    ]
+  },
+  "berries": {
+    "best served": "fresh or frozen",
+    "quantity": 1,
+    "serving": "1/2 cup, 1/4 cup dried",
+    "items": ["blueberries", "raspberries", "strawberries", "cramberries", "cherries", "grapes"]
+  },
+  "fruits": {
+    "best served": "fresh and whole",
+    "quantity": 3,
+    "serving": "1, 1/4 cup dried",
+    "items": [
+      "apple",
+      "banana",
+      "pomegranate",
+      "orange",
+      "cherries",
+      "pineapple",
+      "pears",
+      "peaches"
+    ]
+  },
+  "cruciferous vegetables": {
+    "best served": "raw or lightly cooked",
+    "quantity": 1,
+    "serving": "1/2 cup",
+    "items": ["broccoli", "kale", "brussels sprouts", "cauliflower", "cabbage", "raddishes"]
+  },
+  "greens": {
+    "best served": "raw or lightly cooked",
+    "quantity": 2,
+    "serving": "1 cup raw, 1/2 cup cooked",
+    "items": ["spinach", "swish chard", "lettuce", "microgreens"]
+  },
+  "other vegetables": {
+    "best served": "raw, steamed or roasted",
+    "quantity": 2,
+    "serving": "1/2 cup",
+    "items": [
+      "carrot",
+      "bell pepper",
+      "tomato",
+      "cucumber",
+      "zucchini",
+      "sweet potatoe",
+      "potato",
+      "onion",
+      "mushroom",
+      "eggplant"
+    ]
+  },
+  "flaxseed": {
+    "best served": "ground",
+    "quantity": 1,
+    "serving": "1 tablespoon",
+    "items": ["flaxseed"]
+  },
+  "nuts and seeds": {
+    "best served": "whole, unsalted",
+    "quantity": 1,
+    "serving": "1/4 cup, 2 tablespoons butter",
+    "items": [
+      "almond",
+      "wallnut",
+      "cashew",
+      "pumpkin seed",
+      "sunflower seed",
+      "chia seed",
+      "hemp seed"
+    ]
+  },
+  "herbs and spices": {
+    "quantity": 1,
+    "serving": "1/2 tablespoon",
+    "items": ["tumeric", "ginger", "garlic", "green herbs", "hot spices"]
+  },
+  "whole grains": {
+    "best served": "cooked, minimally processed",
+    "quantity": 3,
+    "serving": "1/2 cup",
+    "items": ["oat", "quinoa", "brown rice", "barley", "millet", "buckwheat", "whole grain pasta"]
+  }
+}
