@@ -3,7 +3,12 @@ table {
   text-align: left;
 }
 
-table th {
+h2 {
+  margin-bottom: 0;
+}
+
+table th,
+table td {
   width: 33%;
   text-align: left;
 }
