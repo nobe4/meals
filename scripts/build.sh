@@ -9,6 +9,7 @@ esbuild \
     --minify \
     --sourcemap \
     --outdir="dist" \
+    --entry-names="[dir]/[name]-[hash]" \
     --analyze
 
 cp ./static/* "dist"
