@@ -8,6 +8,14 @@ if (seed) {
   document.location.hash = `#${r}`;
 }
 
-export function rand() {
+function rand() {
   return (r = (r * 48271) % 2147483647) / 2147483647;
+}
+
+// somehow, using .sort(() => rand() - 0.5) doesn't work the same on mobile and on desktop.
+export function shuffle(a) {
+  return a
+    .map((i) => [rand(), i])
+    .sort((a, b) => a[0] - b[0])
+    .map((i) => i[1]);
 }

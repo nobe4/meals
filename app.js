@@ -1,13 +1,13 @@
-import { rand } from "./rand.js";
+import { shuffle } from "./rand.js";
 
 import data from "./data.json" assert { type: "json" };
 
-const days = 2;
+const days = 1;
 const mealsPerDay = 2;
 let total = [];
 
 for (const category_name in data) {
-  data[category_name].items.sort(() => rand() - 0.5);
+  data[category_name].items = shuffle(data[category_name].items);
   data[category_name].index = 0;
 }
 
