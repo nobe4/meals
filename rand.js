@@ -4,7 +4,8 @@ const seed = parseInt(document.location.hash.slice(1));
 if (seed) {
   r = seed;
 } else {
-  r = Math.floor(Math.random() * 1000);
+  const now = new Date();
+  r = now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
   document.location.hash = `#${r}`;
 }
 
