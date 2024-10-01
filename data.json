@@ -23,16 +23,7 @@
     "best served": "fresh and whole",
     "quantity": 3,
     "serving": "1, 1/4 cup dried",
-    "items": [
-      "apple",
-      "banana",
-      "pomegranate",
-      "orange",
-      "cherries",
-      "pineapple",
-      "pears",
-      "peaches"
-    ]
+    "items": ["apple", "banana", "pomegranate", "orange", "pineapple", "pears", "peaches"]
   },
   "cruciferous vegetables": {
     "best served": "raw or lightly cooked",
